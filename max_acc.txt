@@ -1,0 +1,145 @@
+(base) pavly@10-20-252-132 ~ % /opt/homebrew/bin/python3.12 /Users/pavly/Downloads/bes_model.py
+
+Top 25 Best Configurations (5 languages × 5 models):
+================================================================================
+
+BERT Results:
+----------------------------------------
+Training Language: EN
+Test Accuracy: 0.6351
+Seed: 46
+Checkpoint: ./results_bert-base-uncased_en_seed46
+----------------------------------------
+Training Language: FR
+Test Accuracy: 0.5514
+Seed: 46
+Checkpoint: ./results_bert-base-uncased_fr_seed46
+----------------------------------------
+Training Language: RU
+Test Accuracy: 0.4888
+Seed: 46
+Checkpoint: ./results_bert-base-uncased_ru_seed46
+----------------------------------------
+Training Language: AR
+Test Accuracy: 0.4806
+Seed: 42
+Checkpoint: ./results_bert-base-uncased_ar_seed42
+----------------------------------------
+Training Language: HI
+Test Accuracy: 0.4601
+Seed: 45
+Checkpoint: ./results_bert-base-uncased_hi_seed45
+----------------------------------------
+
+AraBERT Results:
+----------------------------------------
+Training Language: AR
+Test Accuracy: 0.6019
+Seed: 46
+Checkpoint: ./results_bert-base-arabertv02_ar_seed46
+----------------------------------------
+Training Language: EN
+Test Accuracy: 0.5473
+Seed: 46
+Checkpoint: ./results_bert-base-arabertv02_en_seed46
+----------------------------------------
+Training Language: FR
+Test Accuracy: 0.5243
+Seed: 45
+Checkpoint: ./results_bert-base-arabertv02_fr_seed45
+----------------------------------------
+Training Language: RU
+Test Accuracy: 0.3933
+Seed: 44
+Checkpoint: ./results_bert-base-arabertv02_ru_seed44
+----------------------------------------
+Training Language: HI
+Test Accuracy: 0.3804
+Seed: 44
+Checkpoint: ./results_bert-base-arabertv02_hi_seed44
+----------------------------------------
+
+CamemBERT Results:
+----------------------------------------
+Training Language: EN
+Test Accuracy: 0.5304
+Seed: 46
+Checkpoint: ./results_camembert-base_en_seed46
+----------------------------------------
+Training Language: AR
+Test Accuracy: 0.5049
+Seed: 44
+Checkpoint: ./results_camembert-base_ar_seed44
+----------------------------------------
+Training Language: FR
+Test Accuracy: 0.5027
+Seed: 43
+Checkpoint: ./results_camembert-base_fr_seed43
+----------------------------------------
+Training Language: RU
+Test Accuracy: 0.4438
+Seed: 42
+Checkpoint: ./results_camembert-base_ru_seed42
+----------------------------------------
+Training Language: HI
+Test Accuracy: 0.4049
+Seed: 42
+Checkpoint: ./results_camembert-base_hi_seed42
+----------------------------------------
+
+RuBERT Results:
+----------------------------------------
+Training Language: EN
+Test Accuracy: 0.5473
+Seed: 45
+Checkpoint: ./results_rubert-base-cased_en_seed45
+----------------------------------------
+Training Language: RU
+Test Accuracy: 0.5169
+Seed: 44
+Checkpoint: ./results_rubert-base-cased_ru_seed44
+----------------------------------------
+Training Language: FR
+Test Accuracy: 0.4973
+Seed: 45
+Checkpoint: ./results_rubert-base-cased_fr_seed45
+----------------------------------------
+Training Language: AR
+Test Accuracy: 0.4806
+Seed: 44
+Checkpoint: ./results_rubert-base-cased_ar_seed44
+----------------------------------------
+Training Language: HI
+Test Accuracy: 0.3804
+Seed: 45
+Checkpoint: ./results_rubert-base-cased_hi_seed45
+----------------------------------------
+
+MuRIL Results:
+----------------------------------------
+Training Language: EN
+Test Accuracy: 0.4155
+Seed: 43
+Checkpoint: ./results_muril-base-cased_en_seed43
+----------------------------------------
+Training Language: RU
+Test Accuracy: 0.4101
+Seed: 42
+Checkpoint: ./results_muril-base-cased_ru_seed42
+----------------------------------------
+Training Language: FR
+Test Accuracy: 0.4000
+Seed: 43
+Checkpoint: ./results_muril-base-cased_fr_seed43
+----------------------------------------
+Training Language: AR
+Test Accuracy: 0.3883
+Seed: 45
+Checkpoint: ./results_muril-base-cased_ar_seed45
+----------------------------------------
+Training Language: HI
+Test Accuracy: 0.3006
+Seed: 42
+Checkpoint: ./results_muril-base-cased_hi_seed42
+----------------------------------------
+(base) pavly@10-20-252-132 ~ % 
