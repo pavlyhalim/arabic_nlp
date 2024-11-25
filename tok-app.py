@@ -141,7 +141,7 @@ def main():
     st.write("This app predicts the readability level based on text characteristics.")
     
     # Load the model
-    model_path = "/Users/pavly/Downloads/saved_models/stacked_classifier_20241124_213512.joblib"
+    model_path = "stacked_classifier_20241124_213512.joblib"
     model = load_model(model_path)
     
     if model is None:
