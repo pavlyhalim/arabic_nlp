@@ -1,0 +1,26 @@
+Model trained on: 60_10.csv
+Training date: 2024-11-24 21:47:43.948714
+Accuracy: 0.7386
+Training time: 748.03 seconds
+
+Selected features:
+- chars_original
+- chars_tokenized
+- num_words
+- chars_per_word
+- log_chars
+- complexity_score
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.66      0.77      0.71       269
+           2       0.66      0.66      0.66       396
+           3       0.72      0.69      0.71       542
+           4       0.79      0.76      0.77       537
+           5       0.83      0.79      0.81       330
+           6       0.80      0.86      0.83       145
+
+    accuracy                           0.74      2219
+   macro avg       0.74      0.76      0.75      2219
+weighted avg       0.74      0.74      0.74      2219
